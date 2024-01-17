@@ -145,6 +145,15 @@ a {
 .scroll-bar {
   height: 23%;
   background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+}
+
+.scroll-bar h1 {
+  color: #ffffff;
+  font-size: 68px;
 }
 
 .content {
@@ -153,29 +162,60 @@ a {
   display: flex;
 }
 
-.content-image{
+.content-image {
   width: 35%;
   height: 100%;
-  background-color: green;
+  background-image: url("https://petrix.vercel.app/images/about_img.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  /* background-color: green; */
 }
 
-.content-text{
+.content-text {
   width: 65%;
   height: 100%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
-.text{
+.text {
   height: 68%;
-  background-color: aqua;
+  width: 75%;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 64px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* background-color: aqua; */
 }
 
-.stats{
+.stats {
   height: 20%;
-  background-color: red;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* background-color: red; */
 }
 
-button{
+.statistic{
+  display: flex;
+}
+
+.stat{
+  display: flex;
+  margin: 0 20px;
+  font-size: 48px;
+}
+
+.stat p{
+  margin: 0 10px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+button {
   padding: 20px 40px;
   border: none;
   border-radius: 10px;
@@ -184,3 +224,4 @@ button{
   background-color: #000000;
   color: #ffffff;
 }
+
