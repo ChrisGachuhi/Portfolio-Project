@@ -272,19 +272,54 @@ button {
   justify-content: center;
 }
 
-.brand{
+.brand {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   background-color: #ffffff;
 }
 
-.skill h4{
+.skill h4 {
   margin-top: 10px;
   font-size: 50px;
   color: #ffffff;
 }
 
-.card h3{
+.card h3 {
   font-size: 24px;
+}
+
+/* SECTION FOUR */
+.sectionFour {
+  height: 100vh;
+  width: 100%;
+}
+
+.sectionFour .scroll-bar {
+  background-color: #ea552b;
+}
+
+.awards {
+  height: 77%;
+  background-color: #010101;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 0;
+  border-top: solid 1px gray;
+}
+
+p:nth-of-type(4) {
+  border-bottom: solid 1px gray;
 }
