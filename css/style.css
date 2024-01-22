@@ -323,3 +323,63 @@ button {
 .sectionFour p:nth-of-type(4) {
   border-bottom: solid 1px gray;
 }
+
+/* SECTION FIVE */
+.sectionFive {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #e2eaf6;
+}
+
+.tag {
+  height: 80%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: green; */
+}
+
+.tag h3 {
+  font-size: 30px;
+  padding: 30px 0;
+}
+
+.tag .timeline {
+  height: 80%;
+  border: solid 2px white;
+  border-radius: 20px;
+}
+
+.timeline .period {
+  height: 33%;
+  border-bottom: solid 1px white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timeline p {
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #ea552b;
+}
+
+.timeline p:nth-of-type(2) {
+  width: 50%;
+}
+
+.timeline p span {
+  color: #000000;
+}
+
+.timeline p span:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 18px;
+}
