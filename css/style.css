@@ -341,7 +341,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* background-color: green; */
 }
 
 .tag h3 {
@@ -382,4 +381,88 @@ button {
 .timeline p span:nth-of-type(2) {
   font-weight: 400;
   font-size: 18px;
+}
+
+/* SECTION SIX */
+.sectionSix {
+  height: 100%;
+}
+
+.sectionSix .scroll-bar {
+  height: 200px;
+  background-color: #ea552b;
+  color: #ffffff;
+}
+
+.project-container {
+  height: 88%;
+  padding: 50px;
+  background-color: #000000;
+  display: grid;
+  grid-template-areas:
+    "design box"
+    "custom mockup"
+    "product concept"
+    "link link";
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  height: 450px;
+  width: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.short {
+  /* height: 100px; */
+  background-color: green;
+}
+
+.tall {
+  height: 650px;
+  background-color: blue;
+}
+
+.design {
+  grid-area: design;
+  background-image: url("https://petrix.vercel.app/images/portfolio_img_1.jpg");
+}
+.box {
+  grid-area: box;
+  background-image: url("https://petrix.vercel.app/images/portfolio_img_6.jpg");
+}
+.custom {
+  grid-area: custom;
+  background-image: url("https://petrix.vercel.app/images/portfolio_img_2.jpg");
+}
+.mockup {
+  grid-area: mockup;
+  background-image: url("https://petrix.vercel.app/images/portfolio_img_3.jpg");
+}
+.product {
+  grid-area: product;
+  background-image: url("https://petrix.vercel.app/images/portfolio_img_5.jpg");
+}
+.concept {
+  grid-area: concept;
+  background-image: url("https://petrix.vercel.app/images/portfolio_img_4.jpg");
+}
+.link{
+  grid-area: link;
+}
+
+.sectionSix .link {
+  height: 150px;
+  width: 150px;
+  /* margin-left: 90%; */
+  border-radius: 50%;
+  border: solid 1px #f2f2f2;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
