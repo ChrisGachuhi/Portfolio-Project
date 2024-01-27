@@ -403,7 +403,7 @@ button {
     "design box"
     "custom mockup"
     "product concept"
-    "link link";
+    ". link";
   gap: 100px;
   justify-content: center;
   align-items: center;
@@ -457,7 +457,7 @@ button {
 .sectionSix .link {
   height: 150px;
   width: 150px;
-  margin-left: 40%;
+  /* margin-left: 40%; */
   border-radius: 50%;
   border: solid 1px #f2f2f2;
   color: #fff;
@@ -471,7 +471,6 @@ button {
 .sectionSeven {
   height: 200vh;
   background-color: #e2eaf6;
-  /* overflow: hidden; */
 }
 
 .sectionSeven .scroll-bar {
@@ -487,7 +486,7 @@ button {
   height: 88%;
 }
 
-.sectionSeven .specialty p{
+.sectionSeven .specialty p {
   height: 30%;
   padding: 0 50px;
   font-size: 36px;
@@ -499,24 +498,65 @@ button {
   height: 70%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  /* background-color: #000000; */
 }
 
-.sectionSeven .topic{
+.sectionSeven .topic {
   width: 90%;
-  padding: 30px 0;
+  padding: 20px 0;
   font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: solid 1px #ced5e3;
 }
 
-.sectionSeven .topic span:nth-of-type(2){
-  background-color: #010101;
-  padding: 20px;
+.sectionSeven .topic span:nth-of-type(2) {
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
+  padding: 30px;
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   font-size: 30px;
+}
+
+/* SECTION EIGHT */
+.sectionEight {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  background-color: #ffeee1;
+}
+
+.sectionEight .scroll-bar {
+  height: 12%;
+  width: 100%;
+  background-color: #ea552b;
+}
+
+.sectionEight .user-card {
+  height: 40%;
+  width: 80%;
+  margin-top: 80px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.toggle {
+  height: 100%;
+  width: 80px;
+  border-right: solid 1px #f1f1f1;
+}
+
+.view-window{
+  height: 100%;
+  width: calc(100% - 80px);
+  background-color: green;
 }
