@@ -543,7 +543,7 @@ button {
 .sectionEight .user-card {
   height: 40%;
   width: 80%;
-  margin-top: 80px;
+  margin: 120px 0;
   border-radius: 20px;
   background-color: #ffffff;
   display: flex;
@@ -555,8 +555,163 @@ button {
   border-right: solid 1px #f1f1f1;
 }
 
-.view-window{
+.up,
+.down {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .up {
+  border-left: solid 5px #f1f1f1;
+} */
+
+.up,
+.down span {
+  transform: rotate(270deg);
+}
+
+.view-window {
   height: 100%;
   width: calc(100% - 80px);
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: green; */
+}
+
+.view-window .image {
+  height: 85%;
+  width: 28%;
+  background-image: url(https://petrix.vercel.app/images/testimonial_img.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  border-radius: 10px;
+  border: solid 1px white;
+}
+
+.view-window .image-description {
+  height: 85%;
+  width: 60%;
+  padding: 50px;
+
+  /* background-color: #ea552b; */
+}
+
+.view-window .quotes {
+  font-size: 80px;
+  color: #ea552b;
+}
+
+.view-window p {
+  padding: 30px 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.view-window h4{
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.view-window span{
+  font-size: 18px;
+  color: #d4d4d4;
+}
+
+.sectionEight .clients{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.sectionEight .sponsers{
+  height: 80px;
+  width: 80%;
+  display: flex;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.sectionEight .sponser{
+  height: 100%;
+  width: 20%;
+  border-right: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionEight .sponser img{
+  height: 30px;
+}
+
+/* SECTION NINE */
+.sectionNine{
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2eaf6;
+}
+
+.sectionNine .scroll-bar{
+  width: 100%;
+  background-color: #ea552b;
+  color: #fff;
+}
+
+.sectionNine .articles{
+  height: 60%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sectionNine .article{
+  height: 85%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  padding: 20px;
+  gap: 10px;
+  /* justify-content: center; */
+  /* background-color: aqua; */
+  /* align-items: center; */
+}
+
+.article span:nth-of-type(1){
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.article h3{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.article span:nth-of-type(2){
+  font-size: 20px;
+  color: #7A7A7A;
+}
+
+.article img{
+  height: 250px;
+  width: 350px;
+}
+
+.article span:nth-of-type(3){
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.sectionNine button{
+  width: fit-content;
 }
